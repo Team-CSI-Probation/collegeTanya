@@ -14,6 +14,14 @@
     list-style: none; /*for removing the bullets*/
 }
 .navbar ul a{
-    margin-left: 20px; /* for giving spaces from left b/w the
-    icons*/
+    margin-left: 20px; /* for giving spaces b/w the
+    icons  from left*/
 }
+.content{ /*work in content and adding background image*/
+    width: 100%;
+    height: 80vh;
+    padding-top: 30vh;
+    background-image: linear-gradient(rgb(114, 107, 107),#000000c3),url(background1.jpg);
+
+}
+
