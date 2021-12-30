@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+a{
+    color: rgb(151, 168, 109);
+    text-decoration: none;
+    
+}
+
+
+
+.navbar{
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: left;
+  /* position: sticky; */
+  top: 0;
+  cursor: pointer;
+
+}
+
+.nav-list{
+  width: 100%;
+  background-color: black;
+  display: flex;
+justify-content: right;
+align-items: center;
+
+ 
+}
+.nav-list img{
+
+    padding-right: 870px;
+    height: 50px;
+  }
+
+.nav-list li{
+list-style-type: none;
+padding: 7px 30px ;
+
+}
+
+.nav-list li a{
+  padding: 12px;
+text-decoration: none;
+/* color: white; */
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+.nav-list li a:hover{
+
+/* color: rgb(172, 173, 175); */
+background-color: aqua;
+border-radius: 10px;
+}
+
+
+.rightnav{
+/* background-color: aqua; */
+padding: 0 23px;
+width: 30%;
+text-align: right;
+}
+
+/* #search{
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+} */
+
+
+
+
+/* .navbar{
+   width: 100%;
+   height: 80px;
+     padding: 5px 10vh; 
+     position: sticky; /*for shifting the nav bar from the page
+     
+} */
+
+.navbar ul{
+    display: flex; /*for making the bar horizontal*/
+    list-style: none; /*for removing the bullets*/
+    padding-top: 0px;
+    
+}
+
+.navbar ul li{
+  padding:20px
+}
+.navbar ul h1{
+    
+    color: rgb(37, 26, 12);
+}
+.navbar ul a{
+    
+    font-size: 20px; /* for giving spaces b/w the
+    icons  from left*/
+}
+.navbar ul a:hover{
+    color: rgb(65, 78, 153);
+} 
+
+
+.contact{
+    background-color: rgb(221, 221, 221);
+        height: 100vh;
+    }
+    .text-center{
+        text-align: center;
+        padding-top: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .form{
+        max-width: 62%;
+        margin: 25px auto;
+    }
+    .form-input{
+       width: 100%;
+       font-size: 16px;
+       border: 2px solid grey;
+       border-radius: 6px;
+       margin: 13px 0px;
+       padding: 5px 8px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
